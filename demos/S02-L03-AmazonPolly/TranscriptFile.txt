@@ -1,0 +1,5 @@
+AWS SAM has also had a new release, which they're calling AWS SAM Accelerate. This new feature is going to allow us to perform incremental builds on our Lambda functions, but also to test our serverless applications by deploying them in the cloud.
+
+Quick refresher - AWS SAM allows us to develop serverless solutions and test them locally on our machine in a Lambda-like Docker container. This is really great, but faced by the limitations that while a Docker container can be like it's running on AWS... it's just not running on AWS. There are differences, and what works on your machine may not actually work when you deploy it in production.
+
+AWS has decided to solve this problem by just saying, well, how about just running the test in an isolated environment on AWS? And you know what? That kind of makes sense.
